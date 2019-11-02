@@ -1,0 +1,15 @@
+{
+  "name": "slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "once": "markdown-to-slides --style style.css -o slideshow.html -d slides.md",
+    "watch": "markdown-to-slides --style style.css -o slideshow.html -d slides.md -w"
+  },
+  "author": "",
+  "license": "CC BY-NC-SA 4.0",
+  "dependencies": {
+    "markdown-to-slides": "^1.0.5"
+  }
+}
